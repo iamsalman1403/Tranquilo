@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Tinos&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tinos',
+        serif;
+}
+
+header {
+    height: 64px;
+    background: #041E42;
+}
+
+#brand-logo {
+    float: left;
+}
+
+#cart-btn {
+    float: right;
+    font-size: 28px;
+}
+
+#cart-btn i {
+    color: #CE1141;
+}
+
+header img {
+    height: 64px;
+    width: 64px;
+}
+
+.product {
+    margin-top: 16px;
+}
+
+.product .boxes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.product .box {
+    width: 25%;
+    margin: auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+#cart-btn {
+    text-decoration: none;
+    padding: 14px 7px;
+    background: #041E42;
+    color: #ffffff;
+}
+
+.snipcart-add-item {
+    padding: 12px 6px;
+    background: #041E42;
+    color: #ffffff;
+}
+
+.snip #snipcart-footer {
+    background: #041E42;
+}
+
+.snip #snipcart-header {
+    background: #041E42;
+    font-family: 'Tinos',
+        serif;
+}
+
+.snip #snipcart-header #snipcart-total {
+    background-color: #CE1141;
+    color: #ffffff;
+    border: none;
+    border-radius: 0%;
+}
+
+#snipcart-header #snipcart-header-total span {
+    color: #ffffff;
+}
+
+.snip .snipcart-item-header {
+    color: #CE1141;
+}
+
+.snip #snipcart-main-container a.snipcart-next {
+    background: #CE1141;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.snip #snipcart-apply-discount button {
+    background: #CE1141;
+}
+
+.snip #snipcart-steps {
+    background: #CE1141;
+}
+
+.snip #snipcart-steps li {
+    background: #CE1141;
+}
+
+/* .snip #snipcart-header #snipcart-title {
+    color: #50bcd0;
+    background: url('tranquilo estilo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+} */
+/* .snip #snipcart-main-container table#snipcart-items .snipcart-item-quantity-triggers a{
+    padding: 0 5px;
+    font-family: 'Tinos',
+    serif;;
+    font-size: 16px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+     border-radius: 30px;
+    background-color: #e8e8e8;
+    color: #041E42;
+    text-align: center;
+    text-decoration: none;
+    height: 24px;
+    line-height: 19px;
+} */
+/* .snip .snipcart-item-quantity-triggers{
+    background: #041E42;
+    padding: 6px 12px;
+}
+.snipcart-item-quantity-triggers a{
+    background-color: #ffffff;
+} */
+
+.snip #snipcart-title {
+    visibility: hidden;
+}
+
+.snip #snipcart-title:after {
+    content: '';
+    visibility: visible;
+}
+
+/* .snip #snipcart-header {
+    display: none;
+}
+
+.snip #snipcart-header:after {
+    content: 'TQ';
+} */
