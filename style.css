@@ -143,7 +143,7 @@ header img {
 }
 
 .snip #snipcart-title:after {
-    content: 'Tranquilo Estilo';
+    /* content: 'Tranquilo Estilo'; */
     visibility: visible;
     background-image: url('tranquilo estilo.png');
     height: 50px;
