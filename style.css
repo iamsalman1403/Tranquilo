@@ -171,3 +171,22 @@ header img {
 .snip #snipcart-header:after {
     content: 'TQ';
 } */
+
+/* #snipcart-main-container table#snipcart-items .snipcart-item-quantity-triggers a {
+    padding: 0 5px;
+    font-family: Arial;
+    font-size: 13pt;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #e8e8e8;
+    color: #1c1e21;
+    text-align: center;
+    text-decoration: none;
+    height: 17px;
+    line-height: 19px;
+} */
+
+.snip .snipcart-item-quantity-triggers a{
+    background: #041E42;
+}
