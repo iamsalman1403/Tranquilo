@@ -143,23 +143,24 @@ header img {
 }
 
 .snip #snipcart-title:after {
-    content: '      ';
+    content: '';
     visibility: visible;
+    background: url('tranquilo estilo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+}
+/* .snip #snipcart-title{
     background-image: url('tranquilo estilo.png');
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-.snip #snipcart-title{
-    background-image: url('tranquilo estilo.png');
-    height: 50px;
-    width: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+} */
 
 
 /* .snip #snipcart-header {
