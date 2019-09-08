@@ -149,7 +149,7 @@ header img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: auto;
+    margin-top: 24px;
     width: 90px;
     height: 90px;
     display: inline-block;
