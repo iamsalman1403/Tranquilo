@@ -149,9 +149,8 @@ header img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 12px;
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     display: inline-block;
 }
 /* .snip #snipcart-title{
