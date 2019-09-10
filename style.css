@@ -23,7 +23,7 @@ header {
 }
 
 #cart-btn i {
-    color: #CE1141;
+    color: #ffffff;
 }
 
 header img {
@@ -106,43 +106,11 @@ header img {
     background: #CE1141;
 }
 
-/* .snip #snipcart-header #snipcart-title {
-    color: #50bcd0;
-    background: url('tranquilo estilo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 64px;
-    width: 64px;
-} */
-/* .snip #snipcart-main-container table#snipcart-items .snipcart-item-quantity-triggers a{
-    padding: 0 5px;
-    font-family: 'Tinos',
-    serif;;
-    font-size: 16px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-     border-radius: 30px;
-    background-color: #e8e8e8;
-    color: #041E42;
-    text-align: center;
-    text-decoration: none;
-    height: 24px;
-    line-height: 19px;
-} */
-/* .snip .snipcart-item-quantity-triggers{
-    background: #041E42;
-    padding: 6px 12px;
-}
-.snipcart-item-quantity-triggers a{
-    background-color: #ffffff;
-} */
-
 .snip #snipcart-title {
     visibility: hidden;
 }
 
-.snip #snipcart-title:after {
+/* .snip #snipcart-title:after {
     content: '';
     visibility: visible;
     background: url('tranquilo estilo.png');
@@ -152,45 +120,32 @@ header img {
     width: 60px;
     height: 60px;
     display: inline-block;
-}
-/* .snip #snipcart-title{
-    background-image: url('tranquilo estilo.png');
-    height: 50px;
-    width: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 } */
-
-
-/* .snip #snipcart-header {
-    display: none;
-}
-
-.snip #snipcart-header:after {
-    content: 'TQ';
-} */
-
-/* #snipcart-main-container table#snipcart-items .snipcart-item-quantity-triggers a {
-    padding: 0 5px;
-    font-family: Arial;
-    font-size: 13pt;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    background-color: #e8e8e8;
-    color: #1c1e21;
-    text-align: center;
-    text-decoration: none;
-    height: 17px;
-    line-height: 19px;
-} */
-
 .snip .snipcart-item-quantity-triggers a{
     background: #041E42;
 }
 
 .snip .snipcart-summary a{
-    color: #ffffff;
+    color: #FFFFFf;
     text-decoration: none;
+}
+.snip .snipcart-summary{
+    text-align: left;
+    background: #041E42;
+    height: 48px;}
+.snip .summary{
+    margin: 0;
+}
+.summary{
+    float: right;
+}
+.summary a{
+    margin-right: 8px;
+}
+footer{
+    background: #041E42;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
 }
