@@ -189,3 +189,8 @@ header img {
 .snip .snipcart-item-quantity-triggers a{
     background: #041E42;
 }
+
+.snip .snipcart-summery a{
+    color: #ffffff;
+    text-decoration: none;
+}
